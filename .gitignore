@@ -1,0 +1,10 @@
+# Large data files
+data/
+# data/tables/*.fqi
+# data/tables/*.wal
+# data/tables/*.schema
+
+# Optional (good practice)
+node_modules/
+build/
+*.log
