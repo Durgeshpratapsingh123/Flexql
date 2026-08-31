@@ -182,6 +182,7 @@ Type `.exit` or `.quit` to disconnect.
 
 # Kill and restart the server
 pkill -f ./server
+rm -rf data/tables/*
 ./server &
 
 # Data survives restart
